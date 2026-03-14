@@ -1,6 +1,6 @@
-import { Inicio1_1 } from "./card_maior.tsx";
-import{ ZeBigode } from "./card_palco_zeBigode.tsx";
-import{ PalcoPrincipal } from "./card_palco_princial.tsx";
+import { Inicio1_1 } from "./card_maior";
+import{ ZeBigode } from "./card_palco_zeBigode";
+import{ PalcoPrincipal } from "./card_palco_princial";
 
 export function Inicio() {
 
