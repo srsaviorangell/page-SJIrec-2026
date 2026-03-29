@@ -26,7 +26,7 @@ export  function Cardprogamacao({} : {CardAtracoes:TipagemCardAtracoes} ) {
   },[])
  return (
   <>
-    <div id="progamacao" className="grid grid-cols-1 gap-4" >        
+    <div id="progamacao" className=" grid grid-cols-1 gap-4" >        
      {cardAtracoes.map((atracao, index) => (
         <CardAtracao 
           key={atracao.id} 

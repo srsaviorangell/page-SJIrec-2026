@@ -2,7 +2,7 @@ import { Inicio } from './pages-secoes/inicio1/inicio1.tsx'
 import { Nav } from './components/nav.tsx'
 import { Progamacao } from './pages-secoes/progamacao/progamacaoPTela.js'
 import { Contato } from './pages-secoes/contatos.tsx'
-import { Rodape } from './components/footer.tsx'
+import { Rodape } from '../src/pages-secoes/rodape.tsx'
 import React from 'react'
 import './index.css'
 
