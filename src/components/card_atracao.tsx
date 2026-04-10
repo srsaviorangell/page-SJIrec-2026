@@ -38,7 +38,7 @@ export function CardAtracao({ atracao, alternarCor = false }: CardAtracaoProps) 
                 </div>
                 {/* ==================== conteiner gif que ficara rolando sobre a banda ==================== */}
 
-                <div id="info-3" className="  w-full flex justify-end items-center gap-2 ">
+                {/* <div id="info-3" className="  w-full flex justify-end items-center gap-2 ">
                     
                     <span className=' w-40  h-32 md:w-40 lg:w-55 overflow-hidden rounded-lg shadow-md justify-center items-center  '>
                         <img className='w-full h-full object-cover transition-transform duration-300 hover:scale-110' src={atracao.gallery[0]} alt="imagensbanca" />
@@ -51,7 +51,7 @@ export function CardAtracao({ atracao, alternarCor = false }: CardAtracaoProps) 
                     <span className=' w-40  h-32 md:w-40 lg:w-55 overflow-hidden rounded-lg shadow-md hidden   md:hidden lg:flex   justify-center items-center'>
                         <img src={atracao.gallery[2]} alt="imagensbanca" className='w-full h-full object-cover transition-transform duration-300 hover:scale-110' />
                     </span>
-                </div>
+                </div> */}
 
             </div>
 

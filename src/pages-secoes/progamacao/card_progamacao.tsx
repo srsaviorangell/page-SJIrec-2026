@@ -10,10 +10,10 @@ export interface TipagemCardAtracoes{
   stage:string,
   artist:string,
   type:string,
-  gallery:string,
+  gallery:string[],
 }
 
-export  function Cardprogamacao({} : {CardAtracoes:TipagemCardAtracoes} ) {
+export  function Cardprogamacao( ) {
   const [cardAtracoes, setCardAtracoes] = useState<TipagemCardAtracoes[]>([])
 
   useEffect(() =>{
