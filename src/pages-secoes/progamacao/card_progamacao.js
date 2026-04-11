@@ -6,7 +6,7 @@ export function Cardprogamacao() {
     const [cardAtracoes, setCardAtracoes] = useState([]);
     useEffect(() => {
         FetchCardAtracoes().then(result => {
-            setCardAtracoes(result.data);
+            setCardAtracoes(result);
         })
             .catch(err => {
             console.error("x Erro ao buscar:", err);

@@ -1,4 +1,4 @@
-import { InformacaoDownload } from "../../src/components/informacaoDownload.tsx";
+import { InformacaoDownload } from "../../src/components/informacaoDownload";
 
 export  function Contato() {
  return (

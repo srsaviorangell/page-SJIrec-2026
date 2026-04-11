@@ -18,7 +18,7 @@ export  function Cardprogamacao( ) {
 
   useEffect(() =>{
     FetchCardAtracoes().then(result => {
-    setCardAtracoes(result.data);
+    setCardAtracoes(result);
   })
     .catch(err => {
       console.error("x Erro ao buscar:", err);
