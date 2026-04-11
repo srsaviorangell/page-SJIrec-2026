@@ -1,5 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
-import logo_palco_ze_bigode from "../../assets/zebarraca-semfundo.png";
-export function ZeBigode() {
-    return (_jsx(_Fragment, { children: _jsx("button", { id: "ze-bigode", className: " bg-linear-to-r from-[#b46d3b] to-[#c2411a] w-full rounded-3xl p-8 md:pd-12  shadow-[0_-2_35px_rgba(0,0,0,0.3)] hover:shadow-[0_0_20px_rgba(0,0,0,0.4)] transition-all duration-300 ", onClick: () => alert("progamação dos palco ze bigode "), children: _jsxs("div", { className: "flex flex-row h-10 items-center gap-6", children: [_jsx("img", { className: "h-30 invert ", src: logo_palco_ze_bigode, alt: "palco-ze-bigode" }), _jsxs("div", { id: "conteiner info", className: "flex flex-col gap-2 items-center justify-center w-full", children: [_jsx("span", { className: "text-white text-base md:text-xl font-medium ", children: "Circuito Z\u00E9 Bigode " }), _jsx("span", { className: "text-white text-base md:text-xl font-medium ", children: "Forr\u00F3 P\u00E9 de serra " })] })] }) }) }));
-}

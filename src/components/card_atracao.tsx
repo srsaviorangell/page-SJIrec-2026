@@ -11,10 +11,10 @@ export function CardAtracao({ atracao, alternarCor = false }: CardAtracaoProps) 
             {/* ==================== card que contem as atracoes ==================== */}
 
             <div id="card-para-atração" className={`
-          flex flex-row bg-gradient-to-br rounded-2xl p-8 text-white 
+          flex flex-row bg-linear-to-br rounded-2xl p-8 text-white 
           shadow-[0_-2_35px_rgba(0,0,0,0.3)] 
           hover:shadow-[0_0_20px_rgba(0,0,0,0.4)] 
-          transition-all duration-300 gap-3 md:flex-row justify-between items-center 
+          transition-all duration-300 gap-3 md:flex-row justyfy-between items-center 
           ${alternarCor
                     ? 'from-yellow-400 to-yellow-500'
                     : 'from-orange-500 to-orange-600'
@@ -31,7 +31,7 @@ export function CardAtracao({ atracao, alternarCor = false }: CardAtracaoProps) 
                 {/* ==================== conteiner para  palco , nome do artista estilo ==================== */}
 
                 <div id="info-2" className="flex flex-col justify-center items-start w-max  ">
-                    <span className="bg-white text-orange-600 px-3 py-1 rounded-full text-xs font-semibold inline-block mb-2 uppercase">{atracao.stage}</span>
+                    <span className="bg-white text-orange-600 px-3 py-1 rounded-full text-xs font-semibold inline-block mb-2 uppercase">principal</span>
                     <span className="text-2xl font-bold mb-1  flex justify-center items-center w-max">{atracao.artist}</span>
                     <span className="text-sm opacity-90 uppercase">{atracao.type}</span>
 
