@@ -2,12 +2,15 @@
   "name": "saojoaoirece",
   "main": "expo-router/entry",
   "version": "1.0.0",
+  "homepage": "https://SEU_USUARIO_DO_GITHUB.github.io/saojoaoirece",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "build:web": "powershell -ExecutionPolicy Bypass -File scripts/build-web.ps1",
+    "predeploy": "npx expo export -p web",
+    "deploy": "gh-pages -d dist",
     "perf": "node perf-tests/run-all.js",
     "optimize:images": "node scripts/optimize-images.js",
     "perf:images": "node perf-tests/image-benchmark.js",
@@ -42,6 +45,7 @@
   },
   "devDependencies": {
     "@types/react": "~19.2.14",
+    "gh-pages": "^6.3.0",
     "sharp": "^0.35.1",
     "typescript": "~6.0.3"
   },
